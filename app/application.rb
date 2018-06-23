@@ -4,10 +4,10 @@ class Application
     time = Time.new
 
     if time < 12
-      puts "Good morning"
+      puts "Good Morning"
     else
-      puts "Good afternoon"
-    end 
+      puts "Good Afternoon"
+    end
 
     resp.finish
   end
