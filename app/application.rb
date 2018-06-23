@@ -4,10 +4,12 @@ class Application
     time = Time.new
     t = time.hour
 
+    resp.write "I'm the time! #{t}"
+
     if t < 12
-      puts "Good Morning"
+      puts "Good Morning!"
     else
-      puts "Good Afternoon"
+      puts "Good Afternoon!"
     end
 
     resp.finish
